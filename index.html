@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+      <style>
+      
+      </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">Movies</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Industry
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Bollywood</a></li>
+                                <li><a class="dropdown-item" href="#">Hollywood</a></li>
+                                <li><a class="dropdown-item" href="#">Tollywood</a></li>
+                                <li><a class="dropdown-item" href="#">Kollywood</a></li>
+                                
+                            </ul>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success text-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+ 
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Movies</a></li>
+              <li class="breadcrumb-item"><a href="#">Trailers</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Latest movie <span class="badge text-bg-success">New</span></li>
+            </ol>
+          </nav>
+         <div class="container col-10 bg-dark text-light" >
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" class="btn btn-primary">Watch</button>
+                <button type="button" class="btn btn-success mx-1">Review</button>
+                <button type="button" class="btn btn-danger ">Ratings</button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid" src="bahubali.webp" class="d-block w-100" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>BAHUBALI 2</h5>
+                  <p>
+                Amarendra Baahubali, the heir apparent to the throne of Mahishmati, finds his life and relationships endangered as his adoptive brother Bhallaladeva conspires to claim the throne.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="inter.avif" class="d-block w-100" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>INTERSTELLAR</h5>
+                  <p style="color:black;">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="radhe.jpg" class="d-block w-100" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>RADHEY SHYAM</h5>
+                  <p>Concept was unique blend of love and palmistry, wherein it’s so clear love has no boundaries. Destiny is not bounded by a person predicting your future and it’s rightly said you are the creator of your own destiny.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+       
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">7.8/10</strong>
+                  <h3 class="mb-0">RRR</h3>
+                  <div class="mb-1 text-muted">25 March 2022</div>
+                  <p class="card-text mb-auto">A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in the 1920s.</p>
+                  <a href="https://www.youtube.com/watch?v=f_vbAtFSEc0" class="stretched-link">Watch trailer</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img img-fluid" width="200" height="250" src="rrr.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">8/10</strong>
+                  <h3 class="mb-0">Baahubali: The Beginning</h3>
+                  <div class="mb-1 text-muted">10 July 2015</div>
+                  <p class="mb-auto">A child from the Mahishmati kingdom is raised by tribal people and one day learns about his royal heritage, his father's bravery in battle and a mission to overthrow the incumbent ruler.</p>
+                  <a href="https://www.youtube.com/watch?v=sOEg_YZQsTI" class="stretched-link">Watch Trailer</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img img-fluid" width="200" height="250" src="bahubali1.jpg" alt="">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-danger">Upcoming</strong>
+                  <h3 class="mb-0">Salaar: Part 1 – Ceasefire
+                    
+                    </h3>
+                  <div class="mb-1 text-muted">22 December 2023</div>
+                  <p class="card-text mb-auto">A gang leader tries to keep a promise made to his dying friend and takes on the other criminal gangs.
+                </p>
+                  <a href="https://www.youtube.com/watch?v=HihakYi5M2I" class="stretched-link">Watch trailer</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img img-fluid" width="200" height="250" src="salaar.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-warning">Upcoming</strong>
+                  <h3 class="mb-0">Dunki</h3>
+                  <div class="mb-1 text-muted">21 December 2023</div>
+                  <p class="mb-auto">Four friends from a village in Punjab share a common dream: to go to England. Their problem is that they have neither the visa nor the ticket.</p>
+                  <a href="https://www.youtube.com/watch?v=ACKQDAlAfFE" class="stretched-link">Watch trailer</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img img-fluid" width="200" height="250" src="dunki.jpg" alt="">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-danger">8/10</strong>
+                  <h3 class="mb-0">PK
+                    
+                    </h3>
+                  <div class="mb-1 text-muted">19 December 2014</div>
+                  <p class="card-text mb-auto">An alien on Earth loses the only device he can use to communicate with his spaceship. His innocent nature and child-like questions force the country to evaluate the impact of religious views on people.
+                </p>
+                  <a href="https://www.youtube.com/watch?v=0RhDOpSnCqs" class="stretched-link">Watch trailer</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img img-fluid" width="200" height="250" src="pk.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-warning">7.4/10</strong>
+                  <h3 class="mb-0">Animal</h3>
+                  <div class="mb-1 text-muted">1 December 2023</div>
+                  <p class="mb-auto">A son's love for his father. Often away due to work the father is unable to comprehend the intensity of his son's love. Ironically, this fervent love and admiration for his father and family creates conflict between the father and son.</p>
+                  <a href="https://www.youtube.com/watch?v=ACKQDAlAfFE" class="stretched-link">Watch trailer</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img img-fluid" width="200" height="250" src="animal.jpg" alt="">
+
+                </div>
+              </div>
+            </div>
+          </div>
+    </div></div>
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>© 2020-2021 Movies, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
